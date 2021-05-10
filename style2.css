@@ -1,0 +1,385 @@
+body, html{
+	height: 100%;
+	margin: 0px;
+	background-color: bisque;
+}
+.bg{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#display{
+	position: absolute;
+	color: #29465b;
+	top: 400px;
+	left: 700px;
+	font-size: 33px; 
+}
+.headerpart{
+	text-align: center;
+	top: 1px;
+	color: #FF6495;
+	font-family:courier,arial,helvetica;
+	font-size: 50px;
+}
+.customhorizontalline{
+	border-top: 2px solid #78FFF1;
+}
+img.divforimages{
+	position: absolute;
+	left: 650px;
+	padding: 1px;
+	top: 200px;
+}
+h1.divfortext{
+	position: absolute;
+	left: 730px;
+	top: 35px;
+	padding: 15px;
+	font-size: 40px;
+	color: #29465b;
+}
+
+ul.allign_top{
+	position: absolute;
+	top: 140px; 
+	left: 0;
+	width: 150px;
+}
+h1.allign_bottom_right{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	color: #78FFF1;
+
+}
+#instaicon{
+	position: absolute;
+	right:3px;
+	top: 0;
+
+}
+h1.aboutus{
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	color: #FF6495;
+	font-family: "Times New Roman", Times, serif;
+	font-size:33px;
+}
+.contact{
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	left: 0;
+	bottom: 25px;
+	padding: 0px;
+}
+.contact p:hover{
+	color:bisque;
+}
+.ctable{
+	position: absolute;
+	top: 200px;
+	left: 340px;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+input[type=text]{
+	width: 100%;
+	font-size: 15px;
+	padding: 12px 20px;
+	margin: 8px  0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 100%;
+	background-color: #51CAD0;
+	color: white;
+	font-size: 22px;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	color: black;
+}
+input[type="text"]:hover{
+	color: black;
+}
+select[name="ptype"]{
+	position: relative;
+	width: 10%;
+	padding: 14px 20px;
+	text-align: center;
+}
+#imagecontact{
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	width: 600px;
+	height: 500px;
+}
+#ctext{
+	position: absolute;
+	top: 70px;
+	left: 910px;
+	color: #29465b;
+	font-size: 45px;
+	
+}
+#ctext:hover{
+	color:black;
+}
+h1.animals{
+	position: absolute;
+	top: 150px;
+	left: 700px;
+	font-size: 40px;
+	font-family: courier,arial,helvetica;
+	padding: 1px;
+}
+div.animalsford{
+	display: flex;	
+  	justify-content: center;
+  	height: 800px;
+  	align-items: center;
+	bottom: 400px;
+	left: 200px;
+}
+tr.table2{
+	vertical-align: bottom;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+form.custom-form{
+	text-align: center;
+}
+label.form-label-text{
+	font-size: 33px;
+	color:#FF6495;
+}
+input.custom-submit{
+	width: 10rem;
+	height: auto;
+	background-color: #78FFF1;
+	font-size: 25px;
+}
+input.input-box{
+	background-color: #78FFF1;
+}
+h1.animalsh{
+	text-align: top;
+	left: 880px;
+	font-size: 40px;
+	position: absolute;
+	font-family:courier,arial,helvetica;
+	color: white;
+}
+a:visited{
+	color:#78FFF1;
+}
+.headerpart-2{
+	text-align: center;
+	top: 1px;
+	padding: 1px;
+	color: #FF6495;
+	font-family:courier,arial,helvetica;
+	font-size: 50px;
+}
+input:hover{
+	color: #05F4B7;
+}
+input.custom-submit:hover{
+	background-color: #00ABE1;
+}
+.topnav{
+	background-color: #51CAD0;	
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: aqua;
+	font-size: 23px;
+}
+.topnav a:hover {
+	background-color: #05F4B7;
+	color: black;
+}
+.topnav a.active {
+	background-color: #78FFF1;
+	color: black;
+}
+#verticalimg{
+	position: absolute;
+	width: 500px;
+	height: 640px;
+	top: 230px;
+	left: 40px;
+}
+#verticalimg2{
+	position: absolute;
+	width: 481px;
+	height: 640px;
+	top: 230px;
+	right: 40px;
+}
+.seperatorbar{
+	background-color: #51CAD0;	
+	overflow: hidden;
+	position: absolute;
+	top: 130px;
+}
+.seperatorbar p{
+	width: 1920px;
+	height: 15px;
+}
+#paw1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50px;
+	right: 20px;
+}
+#paw2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50px;
+	left: 20px;
+}
+.divforimages2{
+	position: absolute;
+	top: 250px;
+	right: 100px;
+}
+.cdivbox{
+	position: absolute;
+	left: 100px;
+	top: 200px;
+	height: 700px;
+	width: 800px;
+	background-color: bisque;
+}
+#ctext2{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	color: #29465b;
+	font-size: 45px;
+	mix-blend-mode: normal;
+	overflow: hidden;
+}
+#ctext3{
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	color: #29465b;
+	font-style: italic;
+	font-size: 30px;
+	mix-blend-mode: normal;
+	overflow: hidden;
+}
+.divfortext2{
+	position: absolute;
+	left: 850px;
+	top: 35px;
+	padding: 15px;
+	font-size: 40px;
+	color: #29465b;
+}
+.animaldiv1{
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	background-color: #fcc583;	
+	mix-blend-mode:normal;
+	top: 200px;
+	left: 60px;
+
+}
+#antext1{
+	position: absolute;
+	top: 1px;
+	left: 250px;
+	color: #29465b;
+	font-size: 45px;
+	mix-blend-mode: normal;
+	overflow: hidden;
+}
+#reptileimg{
+	position: absolute;
+	top: 400px;
+	left: 170px;
+}
+#antext2{
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	font-style: italic;
+	color: #29465b;
+	font-size: 21px;
+	mix-blend-mode: normal;
+	overflow: hidden;
+}
+.animaldiv2{
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	background-color: #fcc583;	
+	mix-blend-mode:normal;
+	top: 200px;
+	right: 60px;
+}
+#catimg{
+	position: absolute;
+	top: 370px;
+	left: 190px;
+}
+.ftable{
+	position: absolute;
+	top: 200px;
+	right: 170px;
+	left: 170px;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+#ftext{
+	position: absolute;
+	top: 70px;
+	left: 850px;
+	color: #29465b;
+	font-size: 45px;
+}
+.divfortext3{
+	position: absolute;
+	left: 50px;
+	top: 200px;
+	padding: 15px;
+	font-size: 40px;
+	color: #29465b;
+}
+.divforimages3{
+	position: absolute;
+	right: 200px;
+	padding: 1px;
+	top: 200px;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <p id="display"></p>
+		<div class="topnav">
+            <a href="it2.html">Home</a>
+			<a href="https://www.google.com/maps/@35.2146581,33.3157437,19.92z">Location</a>
+			<a href="contact.html">Contact</a>
+			<a href="about.html">About</a>
+			<a href="animals.html">Animals</a>
+            <a href="forum.html">Forum</a>
+			<a class="active" href="costcal.html">Food Price Calculator</a>
+
+        </div>
+		<h1 class="divfortext">Food Price Calculator!</h1>
+		<br><br>
+		<img src="https://i.pinimg.com/originals/35/f3/52/35f352f1ed36ecf973c27cbb03bc4015.png" id="paw1">
+		<img src="https://i.pinimg.com/originals/35/f3/52/35f352f1ed36ecf973c27cbb03bc4015.png" id="paw2">
+        <script>
+            var price = 25;
+            var golden = 240;
+            var husky = 200;
+            var chihuahua = 50;
+            var dog_type = window.prompt("enter the type of dog you want to see results of(golden,husky,chihuahua): ");
+            var year = window.prompt("Enter the number of years: ");
+
+            if(dog_type == "golden"){
+                var amount = golden / price;
+                document.getElementById("display").innerHTML = "The cost will Be: " + ((year * (amount * price))**1.0185);
+            }
+            else if(dog_type == "husky"){
+                var amount = husky / price;
+                document.getElementById("display").innerHTML = "The cost will Be: " + ((year * (amount * price))**1.0185);
+            }
+            else if(dog_type == "chihuahua"){
+                var amount = chihuahua / price;
+                document.getElementById("display").innerHTML = "The cost will Be: " + ((year * (amount * price))**1.0185);
+            }
+        </script>
+    
+    </body>
+</html>
